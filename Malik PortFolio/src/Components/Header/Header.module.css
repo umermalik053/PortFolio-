@@ -1,0 +1,60 @@
+.HeaderWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #f5f2f2 ;
+    padding: 0px 30px;
+    
+}
+.HeaderWrapper ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 20px;
+
+}
+.HeaderWrapper h1{
+    font-size: 32px;
+    font-weight: 600;
+      
+    
+}
+@media only screen and (max-width: 500px) {
+    .HeaderWrapper h1{
+        font-size: 24px;
+        font-weight: 600;
+          
+        
+    }
+    .HeaderWrapper{
+        padding: 0px 20px;
+        
+    }
+    .HeaderWrapper ul{
+        
+        gap: 10px;
+        font-size: 15px;
+    
+    }
+}
+@media only screen and (max-width: 350px) {
+    .HeaderWrapper h1{
+        font-size: 22px;
+        font-weight: 600;
+          
+        
+    }
+    .HeaderWrapper{
+        padding: 0px 10px;
+        gap: 10px;
+        
+    }
+    .HeaderWrapper ul{
+        
+        gap: 7px;
+        font-size: 12px;
+    
+    }
+}

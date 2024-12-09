@@ -1,0 +1,140 @@
+.MainWrapper {
+  width: 100%;
+  height: auto;
+  /* background-color: gray; */
+  padding-top: 30px;
+  background-color: #0d0d0d;
+}
+
+.MainSection2 {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.MainContent {
+  max-width: 550px;
+}
+
+.MainContent h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.img {
+  /* border: 1px solid white; */
+  width: fit-content;
+  border-radius: 50%;
+  min-width: 500px;
+}
+.img img {
+  object-fit: cover;
+  border-radius: 50%;
+  min-width: 500px;
+}
+.tagline {
+  font-size: 24px;
+  color: #b3b3b3;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+.TypeText {
+  width: 96%;
+  color: #34D399;
+  font-size: 3em;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+    font-style: normal;
+}
+.IntroText{
+  line-height: 2rem;
+}
+
+@media only screen and (max-width: 1130px) {
+  .MainSection2 {
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: column-reverse;
+  }
+  .MainContent {
+    max-width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .img {
+    width: 300px;
+    min-width: 300px;
+  }
+  .img img {
+    min-width: 300px;
+  }
+  .tagline {
+    font-size: 22px;
+   
+  }
+  .TypeText{
+    margin-top: 10px;
+    font-size: 2.5em;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+    
+  
+    .img {
+      width: 200px;
+      min-width: 200px;
+    }
+    .img img {
+      min-width: 200px;
+    }
+    .tagline {
+      font-size: 20px;
+     
+    }
+    .TypeText{
+        font-size: 2em;
+    }
+    .IntroText{
+        font-size: 16px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .MainSection2 {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    .MainContent {
+        max-width: 100%;
+       
+      }
+  
+    .img {
+      width: 200px;
+      min-width: 200px;
+    
+    }
+    .img img {
+      min-width: 200px;
+    }
+    .tagline {
+      font-size: 18px;
+     
+    }
+    .TypeText{
+        font-size: 1.7em;
+    }
+    .IntroText{
+        font-size: 14px;
+    }
+  }
