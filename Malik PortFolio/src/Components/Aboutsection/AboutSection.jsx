@@ -3,10 +3,10 @@ import React from "react";
 const AboutSection = () => {
   return (
     <div className="w-[100%]  h-auto  bg-[#0D0D0D] text-[white] py-7  ">
-      <h1 className="flex font-bold text-[26px] sm:text-[35px] md:text-[40px] lg:text-[45px] text-[#34D399] justify-center">About Me</h1>
+      <h1 className="flex font-bold text-[26px] sm:text-[35px] md:text-[40px] lg:text-[45px] text-[#F5F2F2] justify-center">About Me</h1>
       <div className="max-w-[1200px] mx-auto mt-9 ">
         <div className=" w-[250px] rounded-full mx-auto hidden sm:block">
-          <img className="rounded-full" src="/assets/img/img3.png" alt="" />
+          <img className="rounded-full" src="/assets/img/img2.PNG" alt="" />
           
           
           <h2 className="text-3xl font-bold text-[#34D399] mt-[40px] text-center ">

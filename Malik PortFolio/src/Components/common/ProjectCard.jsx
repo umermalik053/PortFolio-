@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const ProjectCard = ({ title, description, image, link }) => {
+const ProjectCard = ({ title, description, image, link ,Tech}) => {
   return (
     <motion.div
       className="relative group w-full md:w-72 bg-gradient-to-r from-gray-800 to-gray-900 rounded-lg shadow-lg overflow-hidden"
@@ -24,6 +24,7 @@ const ProjectCard = ({ title, description, image, link }) => {
       <div className="p-4 space-y-3">
         <h3 className="text-lg font-semibold text-white">{title}</h3>
         <p className="text-sm text-gray-300">{description}</p>
+        <p className="text-sm text-gray-300">{Tech}</p>
       </div>
 
       {/* Hover Effect */}

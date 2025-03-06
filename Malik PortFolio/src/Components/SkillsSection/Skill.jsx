@@ -9,7 +9,7 @@ const Skill = () => {
   }
   return (
     <div className='w-[100%] h-auto bg-[#0D0D0D] overflow-auto'>
-      <h1 className="flex font-bold text-[26px] sm:text-[35px] md:text-[40px] lg:text-[45px] text-[#34D399] justify-center">Skills</h1>
+      <h1 className="flex font-bold text-[26px] sm:text-[35px] md:text-[40px] lg:text-[45px] text-[#F5F2F2] justify-center">Skills</h1>
          <div className="mt-9 gap-5 mb-7 flex flex-wrap max-w-[1200px] mx-auto px-2">
           {
             skillData.slice(0,6).map((items ,index)=>{

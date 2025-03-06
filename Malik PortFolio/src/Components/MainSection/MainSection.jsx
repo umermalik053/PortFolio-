@@ -46,7 +46,7 @@ const MainSection = () => {
             <img
               width={500}
               height={500}
-              src="/assets/img/img3.png"
+              src="/assets/img/img2.PNG"
               alt="Placeholder"
             />
           </div>

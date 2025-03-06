@@ -11,7 +11,7 @@ const Project = () => {
   return (
     <div>
       <div className="w-[100%] h-auto pb-6  bg-[#0D0D0D] overflow-auto">
-        <h1 className="flex font-bold mt-5 text-[26px] sm:text-[35px] md:text-[40px] lg:text-[45px] text-[#34D399] justify-center">
+        <h1 className="flex font-bold mt-5 text-[26px] sm:text-[35px] md:text-[40px] lg:text-[45px] text-[#F5F2F2] justify-center">
           Projects
         </h1>
         <div className="max-w-[1200px] my-5 mx-auto flex flex-wrap justify-between px-4 gap-6 mt-6 lg:mt-6">

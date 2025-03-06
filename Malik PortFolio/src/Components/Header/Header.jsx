@@ -8,10 +8,13 @@ const Header = () => {
       <nav>
         <ul>
           <NavLink to="/">
-          <li>Home</li>
+          <li className='hover:text-[#34D399] hover:animate-bounce'>Home</li>
           </NavLink>
           <NavLink to="/about">
           <li>About</li>
+          </NavLink>
+          <NavLink to="/Projects">
+          <li>Projects</li>
           </NavLink>
           <NavLink to="/contact">
           <li>Contact</li>
