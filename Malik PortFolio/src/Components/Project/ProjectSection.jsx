@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ProjectCard from "../common/ProjectCard";
 import { projects } from "../../utils/Index";
 
-const Project = () => {
+const ProjectSection = () => {
   const [more , setmore] = useState(false)
   const handleToggleMore = () => {
     setmore(!more)
@@ -35,4 +35,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default ProjectSection;

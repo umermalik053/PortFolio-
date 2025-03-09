@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -53,7 +54,7 @@ const Footer = () => {
     //     </div>
     //   </div>
     // </footer>
-    <footer className="bg-[#0D0D0D] py-10 shadow-sm shadow-slate-50">
+    <footer className="bg-[#0d0d0d] py-10 shadow-sm shadow-slate-50">
   <div className="container mx-auto px-6 md:px-12">
   {/* Footer Top Section */} 
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -72,19 +73,19 @@ const Footer = () => {
         </h3>
         <ul className="space-y-2 text-sm">
           <li>
-            <a href="#about" className="text-gray-600 hover:text-[#34D399]">
+            <Link to={"/about"} className="text-gray-600 hover:text-[#34D399]">
               About Me
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#projects" className=" text-gray-600 hover:text-[#34D399]">
+            <Link  to={"/project"} className=" text-gray-600 hover:text-[#34D399]">
               Projects
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#contact" className="text-gray-600 hover:text-[#34D399]">
-              Contact
-            </a>
+            <Link  to={"/services"} className="text-gray-600 hover:text-[#34D399]">
+              Services
+            </Link>
           </li>
         </ul>
       </div>
