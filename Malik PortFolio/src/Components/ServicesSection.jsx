@@ -12,83 +12,61 @@ const ServicesSection = () => {
             {/* Web Development Card */}
             <div className="bg-[#0A0E16] p-6 rounded-lg shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-800">
               <div className="text-center mb-6">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-12 w-12 mx-auto text-[#34D399]"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M10 9V3H7a2 2 0 00-2 2v14a2 2 0 002 2h7a2 2 0 002-2V5a2 2 0 00-2-2h-3V9H10z"
-                  />
-                </svg>
+              <img
+                  className="h-20 w-20 mx-auto "
+                  src="/assets/img/responsive.png"
+                  alt=""
+                />
+              
               </div>
               <h3 className="text-2xl font-semibold text-[#34D399] mb-2">
-                Web Development
+                Responsive Web Design
               </h3>
               <p className="text-sm text-gray-400">
-                I create responsive, clean, and dynamic websites using the
-                latest technologies. I specialize in front-end and back-end
-                development.
+                I craft mobile-first, adaptive websites that offer seamless user
+                experiences across all devices. Using HTML5, CSS3, and modern
+                design techniques, I ensure your site looks great and performs
+                optimally on any screen size.
               </p>
             </div>
 
             {/* UI/UX Design Card */}
             <div className="bg-[#0A0E16] p-6 rounded-lg shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-800">
               <div className="text-center mb-6">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-12 w-12 mx-auto text-[#34D399]"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M7 7h10M7 12h10m-5 5h5m-5 0H7m12 0a2 2 0 010 4h-4a2 2 0 010-4h4zm0-12a2 2 0 010 4h-4a2 2 0 010-4h4z"
-                  />
-                </svg>
+              <img
+                  className="h-20 w-20 mx-auto "
+                  src="/assets/img/uiux.png"
+                  alt=""
+                />
               </div>
               <h3 className="text-2xl font-semibold text-[#34D399] mb-2">
                 UI/UX Design
               </h3>
               <p className="text-sm text-gray-400">
-                I design user-friendly and intuitive user interfaces that
-                provide an excellent user experience for websites and apps.
+                I design intuitive, user-centered interfaces that enhance
+                usability and engagement. By focusing on seamless navigation,
+                visually appealing layouts, and interactive elements, I create
+                experiences that delight users and drive conversions
               </p>
             </div>
 
             {/* Digital Marketing Card */}
             <div className="bg-[#0A0E16] p-6 rounded-lg shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-800">
               <div className="text-center mb-6">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-12 w-12 mx-auto text-[#34D399]"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M9 12l2 2l4-4M6 12h12M6 12l2-2l4 4"
-                  />
-                </svg>
+              <img
+                  className="h-20 w-20 mx-auto "
+                  src="/assets/img/spa.png"
+                  alt=""
+                />
               </div>
               <h3 className="text-2xl font-semibold text-[#34D399] mb-2">
-                Digital Marketing
+              Single Page Applications (SPA)
               </h3>
               <p className="text-sm text-gray-400">
-                I offer digital marketing services such as SEO, content
-                strategy, and social media management to help grow your business
-                online.
+                I build fast, dynamic web applications that load content without
+                page reloads. Using frameworks like React, I create
+                seamless, interactive experiences that feel like native apps,
+                enhancing user engagement and performance.
               </p>
             </div>
           </div>
